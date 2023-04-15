@@ -1,0 +1,29 @@
+{
+  "name": "CacheHive",
+  "version": "1.0.0",
+  "description": "Entity Store based on REST standards",
+  "author": "kabi175",
+  "license": "ISC",
+  "keywords": [
+    "enity store",
+    "validation"
+  ],
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "files": [
+    "build/"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "unfetch": "^5.0.0",
+    "zod": "^3.20.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  }
+}
